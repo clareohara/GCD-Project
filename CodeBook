@@ -1,0 +1,84 @@
+Data Dictionary: Run Analysis
+
+activity
+  Walking
+  WalkingUp
+  WalkingDown
+  Sitting
+  Standing
+  Laying
+  
+subject
+
+t
+
+MeanBodyAccMean XYZ
+
+MeanBodyAccStd
+
+MeanGravAccMean
+
+MeanGravAccStd
+
+MeanBodyJerkMean
+
+MeanBodyJerkStd
+
+MeanBodyGyroMean
+
+MeanBodyGyroStd
+
+MeanBodyGyroJerkMean
+
+MeanBodyGyroJerkStd XYZ
+
+MeanBodyAccMagMean
+
+MeanBodyAccMagStd
+
+MeanGravAccMagMean
+
+MeanGravAccMagStd
+
+MeanBodyJerkMagMean
+
+MeanBodyJerkMagStd     
+
+MeanBodyGyroMagMean
+
+MeanBodyGyroMagStd 
+
+MeanBodyGyroJerkMagMean
+
+MeanBodyGyroJerkMagStd
+
+f
+
+MeanBodyAccMean XYZ
+
+MeanBodyAccStd    
+        
+MeanBodyJerkMean
+
+MeanBodyJerkStd       
+
+MeanBodyGyroMean      
+
+MeanBodyGyroStd XYZ
+
+MeanBodyAccMagMean
+
+MeanBodyAccMagStd    
+
+MeanBodyJerkMagMean
+
+MeanBodyJerkMagStd     
+
+MeanBodyGyroMagMean
+
+MeanBodyGyroMagStd     
+
+MeanBodyGyroJerkMagMean
+
+MeanBodyGyroJerkMagStd
+
