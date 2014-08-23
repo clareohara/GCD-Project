@@ -68,16 +68,26 @@ tidy1 <- gsub("BodyBody",replacement="Body",colnames(traintest_msd))
 tidy2 <- gsub("-mean\\(\\)-",replacement="Mean",tidy1)
 tidy3 <- gsub("-std\\(\\)-",replacement="Std",tidy2)
 tidy4 <- gsub("Gravity",replacement="Grav",tidy3)
-tidy5 <- gsub("AccJerk",replacement="Jerk",tidy4)
-tidy6 <- gsub("-mean\\(\\)",replacement="Mean",tidy5)
-tidy7 <- gsub("-std\\(\\)",replacement="Std",tidy6)
+tidy5 <- gsub("-mean\\(\\)",replacement="Mean",tidy4)
+tidy6 <- gsub("-std\\(\\)",replacement="Std",tidy5)
 
 ##use as column headings
-colnames(traintest_msd) <- tidy7
+colnames(traintest_msd) <- tidy6
 
 ##use aggregate to find mean for each column by activity and subject
 agg_traintest <- aggregate(traintest_msd[,3:68], by = list(
 traintest_msd$subject, traintest_msd$activity), "mean")
+
+##tidy column headings
+tidy7 <- gsub("tBody", replacement="tMeanBody", tidy6)
+tidy8 <- gsub("tGrav", replacement="tMeanGrav", tidy7)
+tidy9 <- gsub("fBody", replacement="fMeanBody", tidy8)
+tidy10 <- gsub("Group.1", replacement="subject", tidy9)
+tidy11 <- gsub("Group.2", replacement="activity", tidy10)
+tidy12 <- gsub("-mean\\(\\)",replacement="Mean",tidy11)
+tidy13 <- gsub("-std\\(\\)",replacement="Std",tidy12)
+
+colnames(agg_traintest) <- tidy13
 
 ##write data frame into text file
 write.table(agg_traintest, "tidy.txt", row.name = FALSE)
