@@ -1,6 +1,6 @@
-##Data Dictionary: Run Analysis
+Data Dictionary: Run Analysis
 
-###"activity"
+"activity"
   Walking
   WalkingUp
   WalkingDown
@@ -8,19 +8,19 @@
   Standing
   Laying
   
-###"subject"
+"subject"
   1-30 labels the 30 volunteers who participated in the experiment.
 
-###"tMeanBodyAccMeanX"
+"tMeanBodyAccMeanX"
   Mean of Means of Body Accelerometer measurements in time domain in X direction by activity and subject.
 
-###"tMeanBodyAccMeanY"
+"tMeanBodyAccMeanY"
     Mean of Means of Body Accelerometer measurements in time domain in Y direction by activity and subject.
 
-###"tMeanBodyAccMeanZ"
+"tMeanBodyAccMeanZ"
     Mean of Means of Body Accelerometer measurements in time domain in Z direction by activity and subject.
 
-###"tMeanBodyAccStdX"
+"tMeanBodyAccStdX"
     Mean of Standard Deviations of Body Accelerometer measurements in time domain in X direction by activity and subject.
 
 "tMeanBodyAccStdY"
@@ -83,41 +83,53 @@
 "tMeanBodyGyroStdZ"
     Mean of Standard Deviationss of Body Gyroscope measurements in time domain in Z direction by activity and subject.
 
-tMeanBodyGyroJerkMean
-    Mean of Means of Body Accelerometer measurements in time domain in X direction by activity and subject.
+"tMeanBodyGyroJerkMeanX"
+    Mean of Means of Derivative of Body Gyroscope measurements in time domain in X direction by activity and subject.
 
-tMeanBodyGyroJerkStd XYZ
-    Mean of Means of Body Accelerometer measurements in time domain in X direction by activity and subject
+"tMeanBodyGyroJerkMeanY"
+    Mean of Means of Derivative of Body Gyroscope measurements in time domain in Y direction by activity and subject.
 
-MeanBodyAccMagMean
-    Mean of Means of Body Accelerometer measurements in time domain in X direction by activity and subject
+"tMeanBodyGyroJerkMeanZ"
+    Mean of Means of Derivative of Body Gyroscope measurements in time domain in Z direction by activity and subject.
 
-MeanBodyAccMagStd
-    Mean of Means of Body Accelerometer measurements in time domain in X direction by activity and subject
+"tMeanBodyGyroJerkStdX"
+    Mean of Standard Deviations of Derivatives of Body Gyroscope measurements in time domain in X direction by activity and subject
 
-MeanGravAccMagMean
-    Mean of Means of Body Accelerometer measurements in time domain in X direction by activity and subject
+"tMeanBodyGyroJerkStdY"
+    Mean of Standard Deviations of Derivatives of Body Gyroscope measurements in time domain in Y direction by activity and subject
 
-MeanGravAccMagStd
-    Mean of Means of Body Accelerometer measurements in time domain in X direction by activity and subject
+"tMeanBodyGyroJerkStdZ"
+    Mean of Standard Deviations of Derivatives of Body Gyroscope measurements in time domain in Z direction by activity and subject
 
-MeanBodyJerkMagMean
-    Mean of Means of Body Accelerometer measurements in time domain in X direction by activity and subject
+"tMeanBodyAccMagMean"
+    Mean of Means of Magnitudes of Body Accelerometer measurements in time domain by activity and subject.
 
-MeanBodyJerkMagStd     
-    Mean of Means of Body Accelerometer measurements in time domain in X direction by activity and subject
+"tMeanBodyAccMagStd"
+    Mean of Standard Deviations of Magnitudes of Body Accelerometer measurements in time domain by activity and subject.
 
-MeanBodyGyroMagMean
-    Mean of Means of Body Accelerometer measurements in time domain in X direction by activity and subject
+"tMeanGravAccMagMean"
+    Mean of Means of Magnitudes of Gravitational Acceleration measurements in time domain by activity and subject.
 
-MeanBodyGyroMagStd 
-    Mean of Means of Body Accelerometer measurements in time domain in X direction by activity and subject
+"tMeanGravAccMagStd"
+    Mean of Standard Deviations of Magnitudes of Gravitational Acceleration measurements in time domain by activity and subject.
 
-MeanBodyGyroJerkMagMean
-    Mean of Means of Body Accelerometer measurements in time domain in X direction by activity and subject
+"tMeanBodyJerkMagMean"
+    Mean of Means of Magnitudes of Derivatives of Body Accelerometer measurements in time domain by activity and subject.
 
-MeanBodyGyroJerkMagStd
-    Mean of Means of Body Accelerometer measurements in time domain in X direction by activity and subject
+"tMeanBodyJerkMagStd"     
+    Mean of Standard Deviations of Magnitudes of Derivatives of Body Accelerometer measurements in time domain by activity and subject.
+
+"tMeanBodyGyroMagMean"
+    Mean of Means of Magnitudes of Body Gyroscope measurements in time domain by activity and subject.
+
+"tMeanBodyGyroMagStd"
+    Mean of Standard Deviations of Magnitudes of Body Gyroscope measurements in time domain by activity and subject.
+
+"tMeanBodyGyroJerkMagMean"
+    Mean of Means of Magnitudes of Derivatives of Body Gyroscope measurements in time domain by activity and subject.
+
+"tMeanBodyGyroJerkMagStd"
+    Mean of Standard Deviations of Magnitudes of Derivatives of Body Gyroscope measurements in time domain by activity and subject.
 
 
 MeanBodyAccMean XYZ
