@@ -47,8 +47,7 @@ feature <- cbind(headings_df, features_headings)
 colnames(traintest) <- feature[1,]
 
 ##identify mean and sd column indices 
-traintest_mean_sd <- grep("mean\\(|std|activity|subject",
-colnames(traintest))
+traintest_mean_sd <- grep("mean\\(|std|activity|subject", colnames(traintest))
 ##check meanFreq not present by comparing:
 traintest_remove <- grep("meanFreq", colnames(traintest))
 
@@ -75,8 +74,7 @@ tidy6 <- gsub("-std\\(\\)",replacement="Std",tidy5)
 colnames(traintest_msd) <- tidy6
 
 ##use aggregate to find mean for each column by activity and subject
-agg_traintest <- aggregate(traintest_msd[,3:68], by = list(
-traintest_msd$subject, traintest_msd$activity), "mean")
+agg_traintest <- aggregate(traintest_msd[,3:68], by = list(traintest_msd$subject, traintest_msd$activity), "mean")
 
 ##tidy column headings
 tidy7 <- gsub("tBody", replacement="tMeanBody", tidy6)
