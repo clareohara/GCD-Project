@@ -131,46 +131,81 @@ Data Dictionary: Run Analysis
 "tMeanBodyGyroJerkMagStd"
     Mean of Standard Deviations of Magnitudes of Derivatives of Body Gyroscope measurements in time domain by activity and subject.
 
+"fMeanBodyAccMeanX"
+    Mean of Means of Body Accelerometer measurements in frequency domain in X direction by activity and subject.
 
-MeanBodyAccMean XYZ
-    Mean of Means of Body Accelerometer measurements in frequency domain in X direction by activity and subject
+"fMeanBodyAccMeanY"
+    Mean of Means of Body Accelerometer measurements in frequency domain in Y direction by activity and subject.
 
-MeanBodyAccStd    
-      Mean of Means of Body Accelerometer measurements in frequency domain in X direction by activity and subject
+"fMeanBodyAccMeanZ"
+    Mean of Means of Body Accelerometer measurements in frequency domain in Z direction by activity and subject.
+
+"fMeanBodyAccStdX"
+      Mean of Standard Deviations of Body Accelerometer measurements in frequency domain in X direction by activity and subject.
         
-MeanBodyJerkMean
-      Mean of Means of Body Accelerometer measurements in frequency domain in X direction by activity and subject
+"fMeanBodyAccStdY"
+      Mean of Standard Deviations of Body Accelerometer measurements in frequency domain in Y direction by activity and subject.
+        
+"fMeanBodyAccStdZ"
+      Mean of Standard Deviations of Body Accelerometer measurements in frequency domain in Z direction by activity and subject.
+        
+"fMeanBodyJerkMeanX"
+      Mean of Means of Derivatives of Body Accelerometer measurements in frequency domain in X direction by activity and subject.
+        
+"fMeanBodyJerkMeanY"
+      Mean of Means of Derivatives of Body Accelerometer measurements in frequency domain in Y direction by activity and subject.
+        
+"fMeanBodyJerkMeanZ"
+      Mean of Means of Derivatives of Body Accelerometer measurements in frequency domain in Z direction by activity and subject.
 
-MeanBodyJerkStd       
-      Mean of Means of Body Accelerometer measurements in frequency domain in X direction by activity and subject
+"fMeanBodyJerkStdX"      
+      Mean of Standard Deviations of Derivatives of Body Accelerometer measurements in frequency domain in X direction by activity and subject.
 
-MeanBodyGyroMean      
-      Mean of Means of Body Accelerometer measurements in frequency domain in X direction by activity and subject
+"fMeanBodyJerkStdY"      
+      Mean of Standard Deviations of Derivatives of Body Accelerometer measurements in frequency domain in Y direction by activity and subject.
 
-MeanBodyGyroStd XYZ
-      Mean of Means of Body Accelerometer measurements in frequency domain in X direction by activity and subject
+"fMeanBodyJerkStdZ"      
+      Mean of Standard Deviations of Derivatives of Body Accelerometer measurements in frequency domain in Z direction by activity and subject.
 
-MeanBodyAccMagMean
-      Mean of Means of Body Accelerometer measurements in frequency domain in X direction by activity and subject
+"fMeanBodyGyroMeanX"    
+      Mean of Means of Body Gyroscope measurements in frequency domain in X direction by activity and subject.
 
-MeanBodyAccMagStd    
-      Mean of Means of Body Accelerometer measurements in frequency domain in X direction by activity and subject
+"fMeanBodyGyroMeanY"    
+      Mean of Means of Body Gyroscope measurements in frequency domain in Y direction by activity and subject.
 
-MeanBodyJerkMagMean
-      Mean of Means of Body Accelerometer measurements in frequency domain in X direction by activity and subject
+"fMeanBodyGyroMeanZ"    
+      Mean of Means of Body Gyroscope measurements in frequency domain in Z direction by activity and subject.
+      
+"fMeanBodyGyroStdX" 
+      Mean of Standard Deviations of Body Gyroscope measurements in frequency domain in X direction by activity and subject.
 
-MeanBodyJerkMagStd     
-      Mean of Means of Body Accelerometer measurements in frequency domain in X direction by activity and subject
+"fMeanBodyGyroStdY" 
+      Mean of Standard Deviations of Body Gyroscope measurements in frequency domain in Y direction by activity and subject.
 
-MeanBodyGyroMagMean
-      Mean of Means of Body Accelerometer measurements in frequency domain in X direction by activity and subject
+"fMeanBodyGyroStdZ" 
+      Mean of Standard Deviations of Body Gyroscope measurements in frequency domain in Z direction by activity and subject.
 
-MeanBodyGyroMagStd     
-      Mean of Means of Body Accelerometer measurements in frequency domain in X direction by activity and subject
+"fMeanBodyAccMagMean"
+      Mean of Means of Magnitudes of Body Accelerometer measurements in frequency domain by activity and subject.
 
-MeanBodyGyroJerkMagMean
-      Mean of Means of Body Accelerometer measurements in frequency domain in X direction by activity and subject
+"fMeanBodyAccMagStd"   
+      Mean of Standard Deviations of Magnitudes of Body Accelerometer measurements in frequency domain by activity and subject.
 
-MeanBodyGyroJerkMagStd
-      Mean of Means of Body Accelerometer measurements in frequency domain in X direction by activity and subject
+"fMeanBodyJerkMagMean"
+      Mean of Means of Magnitudes of Derivatives of Body Accelerometer measurements in frequency domain in X direction by activity and subject.
+
+"fMeanBodyJerkMagStd"     
+      Mean of Standard Deviations of Magnitudes of Derivatives of Body Accelerometer measurements in frequency domain by activity and subject.
+
+"fMeanBodyGyroMagMean"
+      Mean of Means of Magnitudes of Body Gyroscope measurements in frequency domain in X direction by activity and subject.
+
+"fMeanBodyGyroMagStd"   
+      Mean of Standard Deviations of Magnitudes of Body Gyroscope measurements in frequency domain by activity and subject.
+
+"fMeanBodyGyroJerkMagMean"
+      Mean of Means of Magnitudes of Derivatives of Body Gyroscope measurements in frequency domain in X direction by activity and subject.
+
+"fMeanBodyGyroJerkMagStd"
+      Mean of Standard Deviations of Magnitudes of Derivatives of Body Accelerometer measurements in frequency domain by activity and subject.
 
