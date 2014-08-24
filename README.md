@@ -7,8 +7,7 @@ The original data comes from the Human Activity Recognition Using Smartphones Da
 
 The original experiments involved a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) while wearing a smartphone (Samsung Galaxy S II). Using its embedded accelerometer and gyroscope, 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz were recorded. Each activity was performed by each subject numerous times. The subjects were split into a training subset and a testing subset: 70% of the subject were assigned to 'train', 30% to 'test'.
 
-For each record the following data was recorded:
-======================================
+##For each record the following data was recorded:
 
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
 - Triaxial Angular velocity from the gyroscope. 
@@ -16,8 +15,8 @@ For each record the following data was recorded:
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
 
-The original dataset included the following files:
-=========================================
+##The original dataset included the following files:
+
 
 - 'README.txt'
 - 'features_info.txt': Shows information about the variables used on the feature vector.
