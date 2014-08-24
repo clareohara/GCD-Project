@@ -1,9 +1,9 @@
 GCD-Project
 ===========
 
-##Getting and Cleaning Data Course Project
+Getting and Cleaning Data Course Project
 
-###The Original Dataset
+##The Original Dataset
 
 The original data comes from the Human Activity Recognition Using Smartphones Dataset, collected by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto. of the Smartlab - Non Linear Complex Systems Laboratory at the University of Genoa. The essential details are included here.
 
