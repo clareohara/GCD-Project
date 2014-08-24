@@ -1,6 +1,6 @@
-Data Dictionary: Run Analysis
+##Data Dictionary: Run Analysis
 
-"activity"
+###"activity"
   Walking
   WalkingUp
   WalkingDown
@@ -8,19 +8,19 @@ Data Dictionary: Run Analysis
   Standing
   Laying
   
-"subject"
+###"subject"
   1-30 labels the 30 volunteers who participated in the experiment.
 
-"tMeanBodyAccMeanX"
+###"tMeanBodyAccMeanX"
   Mean of Means of Body Accelerometer measurements in time domain in X direction by activity and subject.
 
-"tMeanBodyAccMeanY"
+###"tMeanBodyAccMeanY"
     Mean of Means of Body Accelerometer measurements in time domain in Y direction by activity and subject.
 
-"tMeanBodyAccMeanZ"
+###"tMeanBodyAccMeanZ"
     Mean of Means of Body Accelerometer measurements in time domain in Z direction by activity and subject.
 
-"tMeanBodyAccStdX"
+###"tMeanBodyAccStdX"
     Mean of Standard Deviations of Body Accelerometer measurements in time domain in X direction by activity and subject.
 
 "tMeanBodyAccStdY"
